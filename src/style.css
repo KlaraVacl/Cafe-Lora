@@ -57,6 +57,16 @@ header {
   justify-content: space-between;
 }
 
+.nav-btn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+}
+
 .site-logo {
   width: 180px;
   height: 50px;
